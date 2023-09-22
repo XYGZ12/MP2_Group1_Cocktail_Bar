@@ -7,7 +7,7 @@ const { check, validationResult} = require('express-validator');
 const bodyParser = require('body-parser');
 const { v4: uuidv4 } = require('uuid');
 
-//express object
+//express object = app
 const app = express();
 
 //templating engine
