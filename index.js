@@ -7,6 +7,7 @@ const { v4: uuidv4 } = require('uuid');
 const session = require('express-session');
 
 const router = require('./router');
+require('dotenv').config()
 
 
 //express object = app

@@ -116,6 +116,7 @@ footer {
   
   /* Set a background color for the body */
   body {
+    /*background-color: #e6b17e;*/
     background-color: #f4f4f4;
     font-family: Arial, sans-serif;
     margin: 0;
@@ -124,6 +125,7 @@ footer {
   
   /* Style the header */
   header {
+    /*background-color: #c56e33;*/
     background-color: #007bff;
     color: white;
     padding: 10px;
@@ -173,6 +175,7 @@ footer {
   /* Style the search button */
   #searchButton {
     padding: 5px 10px;
+    /*background-color: #551e19;*/
     background-color: blue;
     border: none;
     border-radius: 5px;
@@ -238,6 +241,7 @@ footer {
 }
 
 .dropbtn {
+  /*background-color: #c56e33;*/
   background-color: #3498db;
   color: white;
   border: none;

@@ -58,7 +58,7 @@ router.get('/dashboard',(req, res)=>{
     if(req.session.user){
         res.render('dashboard',{title:'Dashboard', user: req.session.user });
     }else{
-        res.send(403);
+        res.sendStatus(403);
     }
 });
 
