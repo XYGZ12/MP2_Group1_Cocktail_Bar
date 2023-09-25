@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test2": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js"
   },
   "keywords": [],
@@ -19,5 +19,11 @@
     "express-validator": "^7.0.1",
     "nodemon": "^3.0.1",
     "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": "/node_modules",
+    "supertest": "^6.3.3"
   }
 }
